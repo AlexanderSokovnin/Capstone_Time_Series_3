@@ -6,7 +6,7 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
-## model specific variables (iterate the version and note with each change)
+### model specific variables (iterate the version and note with each change)
 MODEL_VERSION = 0.1
 MODEL_VERSION_NOTE = "example random forest on toy data"
 SAVED_MODEL = "model-{}.joblib".format(re.sub("\.","_",str(MODEL_VERSION)))
