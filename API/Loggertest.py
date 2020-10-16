@@ -44,6 +44,6 @@ class ModelTest(unittest.TestCase):
         log_path = path.join(LOG_PATH,'example-training-2020-3.log')
         self.assertTrue(path.exists(log_path))
         
-### Run the tests
+#### Run the tests
 if __name__ == '__main__':
     unittest.main()
