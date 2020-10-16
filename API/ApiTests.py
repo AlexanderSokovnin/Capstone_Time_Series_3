@@ -72,6 +72,6 @@ class ApiTest(unittest.TestCase):
         train_complete = re.sub("\W+","",r.text)
         self.assertEqual(train_complete,'true')
 
-### Run the tests
+#### Run the tests
 if __name__ == '__main__':
     unittest.main()
